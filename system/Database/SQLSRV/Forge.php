@@ -145,7 +145,7 @@ class Forge extends BaseForge
                 $fld = array_intersect($field, $index->fields);
 
                 // Drop index if field is part of an index
-                if ($fld !== []) {
+                if (! empty($fld)) {
                     $this->_dropIndex($table, $index);
                 }
             }

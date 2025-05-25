@@ -44,7 +44,9 @@
                 </div>
                 <div class="text-center">
                     <h3 class="mb-5">Deliciosos e com grandes descontos!</h3>
-                    <a class="btn-products" href="<?= site_url('products') ?>">Produtos</a>
+                    <button type="button" class="btn btn-warning btn-lg px-5 py-3 rounded-pill fw-bold" onclick="window.location.href='<?= site_url('products') ?>'">
+                        Produtos
+                    </button>
                 </div>
             </div>
             <div class="col text-center p-5">
